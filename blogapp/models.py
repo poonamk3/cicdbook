@@ -25,5 +25,8 @@ class Blog(BaseModel):
     def __str__(self):
         return self.title
 
-        
-# class BaseModel(models.Model):
+
+class Data_model(models.Model):
+    title = models.CharField(max_length=200)
+    blog_text= models.TextField()  
+    main_image = models.FileField()   
