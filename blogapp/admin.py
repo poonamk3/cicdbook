@@ -31,15 +31,12 @@ class BlogAdmin(admin.ModelAdmin):
 class TitleAdmin(admin.ModelAdmin):
     
     fields = [
-        
-        'user',
         'title',
         'blog_text',
         'main_image',
     ]
     list_display = [
         'title', 
-        'user',
         'blog_text',
         'main_image',
         'created_at',
