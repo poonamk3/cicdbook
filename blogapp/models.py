@@ -35,3 +35,8 @@ class new_model(models.Model):
     title = models.CharField(max_length=200)
     blog_text= models.TextField()  
     main_image = models.FileField()   
+
+class data(models.Model):
+    title = models.CharField(max_length=200)
+    blog_text= models.TextField()  
+    main_image = models.FileField()   

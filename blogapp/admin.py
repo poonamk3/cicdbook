@@ -6,6 +6,7 @@ from . import models
 
 admin.site.register(models.Data_model)
 admin.site.register(models.new_model)
+admin.site.register(models.data)
 @admin.register(models.Blog)
 
 
