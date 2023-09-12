@@ -29,6 +29,3 @@ class Title(BaseModel):
     title = models.CharField(max_length=200)
     blog_text= models.TextField()  
     main_image = models.FileField()   
-        
-    def __str__(self):
-        return self.title

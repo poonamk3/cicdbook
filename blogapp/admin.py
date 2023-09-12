@@ -11,7 +11,6 @@ from . import models
 class BlogAdmin(admin.ModelAdmin):
     
     fields = [
-        
         'user',
         'title',
         'blog_text',
@@ -27,19 +26,3 @@ class BlogAdmin(admin.ModelAdmin):
         
     ]
 
-
-class TitleAdmin(admin.ModelAdmin):
-    
-    fields = [
-        'title',
-        'blog_text',
-        'main_image',
-    ]
-    list_display = [
-        'title', 
-        'blog_text',
-        'main_image',
-        'created_at',
-        'updated_at',
-        
-    ]
