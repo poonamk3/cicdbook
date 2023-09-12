@@ -5,7 +5,7 @@ from . import models
 # Register your models here.
 
 @admin.register(models.Blog)
-@admin.register(models.Title)
+
 
 # The BlogAdmin class is a subclass of the admin.ModelAdmin class. 
 class BlogAdmin(admin.ModelAdmin):
