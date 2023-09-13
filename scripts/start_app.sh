@@ -1,6 +1,6 @@
 #!/usr/bin/bash 
 cd /home/ubuntu
-./data.sh
+# ./data.sh
 source /home/ubuntu/env/bin/activate
 cd /home/ubuntu/blogprojectdrf
 python manage.py makemigrations
