@@ -1,4 +1,6 @@
 #!/usr/bin/bash 
+cd /home/ubuntu
+
 source /home/ubuntu/env/bin/activate
 cd /home/ubuntu/blogprojectdrf
 python manage.py makemigrations
