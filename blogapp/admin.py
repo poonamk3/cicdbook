@@ -5,6 +5,7 @@ from . import models
 # Register your models here.
 
 admin.site.register(models.poonam)
+admin.site.register(models.kulddep)
 admin.site.register(models.Data_model)
 admin.site.register(models.new_model)
 admin.site.register(models.data)
