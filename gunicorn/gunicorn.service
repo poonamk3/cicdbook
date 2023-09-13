@@ -3,13 +3,17 @@ Description=gunicorn daemon
 Requires=gunicorn.socket
 After=network.target
 [Service]
-User=root
+User=ubuntu
 Group=www-data
-WorkingDirectory=/home/ubuntu/blogprojectdrf/
+WorkingDirectory=/home/ubuntu/blogprojectdrf
 ExecStart=/home/ubuntu/env/bin/gunicorn \
-          --access-logfile - \
-          --workers 3 \
-          --bind unix:/run/gunicorn.sock \
-          blogprojectdrf.wsgi:application
+        --access-logfile - \
+        --workers 3 \
+        --bind unix:/run/gunicorn.sock \
+        blog.wsgi:application
+
+       
 [Install]
 WantedBy=multi-user.target
+
+
