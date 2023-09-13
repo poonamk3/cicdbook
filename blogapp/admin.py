@@ -6,6 +6,7 @@ from . import models
 
 admin.site.register(models.poonam)
 admin.site.register(models.sa1)
+admin.site.register(models.sa2)
 admin.site.register(models.kulddep)
 admin.site.register(models.Data_model)
 admin.site.register(models.new_model)
